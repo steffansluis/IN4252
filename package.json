@@ -3,5 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Steffan Sluis <steffansluis@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "twit": "^2.2.9",
+    "twitter": "^1.7.1"
+  }
 }
