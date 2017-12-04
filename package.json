@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "dotenv": "^4.0.0",
+    "node-tweet-stream": "^2.0.3",
     "twit": "^2.2.9",
     "twitter": "^1.7.1"
   }

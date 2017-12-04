@@ -16,7 +16,8 @@ const _2_HOURS = 1000 * 60 * 120;
 // Longitude of Amsterdam: 4.895168
 // Latitude of Amsterdam: 52.370216
 const amsterdam = ['3.89', '51.37', '4.89', '52.37'];
-const params = { locations: amsterdam };
+const schiphol = ['4.73', '52.29', '4.77', '52.32'];
+const params = { locations: schiphol };
 const stream = client.stream('statuses/filter', params);
 
 stream.on('tweet', function(tweet) {
