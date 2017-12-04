@@ -20,7 +20,7 @@ const params = { locations: amsterdam };
 const stream = client.stream('statuses/filter', params);
 
 stream.on('tweet', function(tweet) {
-  console.log(JSON.stringify(tweet), "\n"); // Logging it this way allows the output to be piped to a .ndjson file
+  console.log(JSON.stringify(tweet)); // Logging it this way allows the output to be piped to a .ndjson file
 });
 
 stream.on('error', function(error) {
